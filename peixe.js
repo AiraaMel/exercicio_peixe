@@ -27,13 +27,13 @@ function create (){
     this.add.image(400, 525, 'logo').setScale(0.5);
 
 
-    AiraMel = this.add.image(400, 300, 'peixe')
+    linguado = this.add.image(400, 300, 'peixe')
     
-    AiraMel.setFlip(true, false);
+    linguado.setFlip(true, false);
 }
 
 
 function update () {
-    AiraMel.x = this.input.x;
-    AiraMel.y = this.input.y;
+    linguado.x = this.input.x;
+    linguado.y = this.input.y;
 }
