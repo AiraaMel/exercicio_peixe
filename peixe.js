@@ -38,7 +38,7 @@ function create (){
     this.add.image(400, 300, 'elemento');
 
     // adicionar o logo na tela
-    this.add.image(400, 525, 'logo').setScale(0.5);
+    this.add.image(400, 75, 'logo').setScale(0.5);
 
     //guardar o peixe na variável linguado
     linguado = this.add.image(400, 300, 'peixe')
